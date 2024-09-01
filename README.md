@@ -32,8 +32,8 @@
 
 ### 1. 克隆專案，將專案克隆至本地
 ```bash
-& git clone git@github.com:chenstephen0501/todo_list_backend.git
-& cd todo_list_backend
+$ git clone git@github.com:chenstephen0501/todo_list_backend.git
+$ cd todo_list_backend
 ```
 
 ### 2. 虛擬環境初始化
