@@ -14,7 +14,7 @@ ENV PATH="/root/.local/bin:$PATH"
 COPY pyproject.toml poetry.lock ./
 
 # 安裝項目的依賴
-RUN poetry install --no-dev
+RUN poetry install 
 
 # 複製所有源代碼
 COPY . .
